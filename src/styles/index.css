@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centered-container {
+  @apply mx-auto px-5 md:px-14 max-w-screen-xl;
+}
+
+.section {
+  @apply mt-8 mb-16;
+}
+
+.primary-cta {
+  @apply bg-sky-500 hover:bg-sky-600;
+}
+
+.secondary-cta {
+  @apply bg-sky-700 hover:bg-sky-800;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Regular.woff),
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Regular.woff2);
+  font-weight: normal;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-RegularItalic.otf);
+  font-weight: normal;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Bold.woff),
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Bold.woff2);
+  font-weight: bold;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-BoldItalic.woff),
+    url(https://hitchhikers.yext.com/fonts/Gilroy-BoldItalic.woff2);
+  font-weight: bold;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Light.woff),
+    url(https://hitchhikers.yext.com/fonts/Gilroy-Light.woff2);
+  font-weight: lighter;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Gilroy-LightItalic.otf);
+  font-weight: lighter;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-Regular.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-Regular.woff2);
+  font-weight: normal;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-Italic.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-Italic.woff2);
+  font-weight: normal;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-Bold.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-Bold.woff2);
+  font-weight: bold;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-BoldItalic.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-BoldItalic.woff2);
+  font-weight: bold;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-Light.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-Light.woff2);
+  font-weight: lighter;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: 
+    url(https://hitchhikers.yext.com/fonts/Inter-LightItalic.woff),
+    url(https://hitchhikers.yext.com/fonts/Inter-LightItalic.woff2);
+  font-weight: lighter;
+  font-style: italic;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  font-display: swap;
+}
